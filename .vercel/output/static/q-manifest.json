@@ -1,0 +1,139 @@
+{
+  "manifestHash": "c1iq9a",
+  "symbols": {
+    "s_YH540eqYQUI": {
+      "origin": "../node_modules/.pnpm/@qwikdev+astro@0.7.6_@builder.io+qwik@1.12.0_vite@6.0.7_yaml@2.7.0___astro@5.1.2_rollup@4.29._idn66wqk2kj2hjbcbbhncbk75e/node_modules/@qwikdev/astro/src/root.tsx",
+      "displayName": "root.tsx_root_component",
+      "canonicalFilename": "root.tsx_root_component_YH540eqYQUI",
+      "hash": "YH540eqYQUI",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        81,
+        136
+      ]
+    },
+    "s_lgApYiDbIS8": {
+      "origin": "components/counter.tsx",
+      "displayName": "counter.tsx_Counter_component",
+      "canonicalFilename": "counter.tsx_Counter_component_lgApYiDbIS8",
+      "hash": "lgApYiDbIS8",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        138,
+        434
+      ]
+    },
+    "s_2x6uNXGChaw": {
+      "origin": "components/counter.tsx",
+      "displayName": "counter.tsx_Counter_component_Fragment_div_button_onClick",
+      "canonicalFilename": "counter.tsx_Counter_component_Fragment_div_button_onClick_2x6uNXGChaw",
+      "hash": "2x6uNXGChaw",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": true,
+      "parent": "s_lgApYiDbIS8",
+      "loc": [
+        325,
+        344
+      ]
+    }
+  },
+  "mapping": {
+    "s_YH540eqYQUI": "q-BVtMH8CX.js",
+    "s_lgApYiDbIS8": "q-i_sM42H3.js",
+    "s_2x6uNXGChaw": "q-Dl9idkZS.js"
+  },
+  "bundles": {
+    "q-B3p25UoF.js": {
+      "size": 118,
+      "origins": [
+        "src/components/counter.module.css"
+      ]
+    },
+    "q-BQOBR66M.js": {
+      "size": 208,
+      "imports": [
+        "q-B3p25UoF.js",
+        "q-BVtMH8CX.js",
+        "q-i_sM42H3.js"
+      ],
+      "dynamicImports": [
+        "q-BVtMH8CX.js"
+      ],
+      "origins": [
+        "node_modules/.pnpm/@qwikdev+astro@0.7.6_@builder.io+qwik@1.12.0_vite@6.0.7_yaml@2.7.0___astro@5.1.2_rollup@4.29._idn66wqk2kj2hjbcbbhncbk75e/node_modules/@qwikdev/astro/src/root.tsx"
+      ]
+    },
+    "q-BVtMH8CX.js": {
+      "size": 61649,
+      "origins": [
+        "@builder.io/qwik/build",
+        "node_modules/.pnpm/@builder.io+qwik@1.12.0_vite@6.0.7_yaml@2.7.0_/node_modules/@builder.io/qwik/dist/core.prod.mjs",
+        "node_modules/.pnpm/@qwikdev+astro@0.7.6_@builder.io+qwik@1.12.0_vite@6.0.7_yaml@2.7.0___astro@5.1.2_rollup@4.29._idn66wqk2kj2hjbcbbhncbk75e/node_modules/@qwikdev/astro/src/root.tsx_root_component_YH540eqYQUI.js"
+      ],
+      "symbols": [
+        "s_YH540eqYQUI"
+      ]
+    },
+    "q-Dhc6-wcp.js": {
+      "size": 208,
+      "imports": [
+        "q-B3p25UoF.js",
+        "q-BVtMH8CX.js",
+        "q-i_sM42H3.js"
+      ],
+      "dynamicImports": [
+        "q-i_sM42H3.js"
+      ],
+      "origins": [
+        "src/components/counter.tsx"
+      ]
+    },
+    "q-Dl9idkZS.js": {
+      "size": 107,
+      "imports": [
+        "q-B3p25UoF.js",
+        "q-BVtMH8CX.js",
+        "q-i_sM42H3.js"
+      ],
+      "symbols": [
+        "s_2x6uNXGChaw"
+      ]
+    },
+    "q-i_sM42H3.js": {
+      "size": 1819,
+      "imports": [
+        "q-B3p25UoF.js",
+        "q-BVtMH8CX.js"
+      ],
+      "origins": [
+        "src/components/counter.tsx_Counter_component_Fragment_div_button_onClick_2x6uNXGChaw.js",
+        "src/components/counter.tsx_Counter_component_lgApYiDbIS8.js"
+      ],
+      "symbols": [
+        "s_lgApYiDbIS8"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "1.12.0",
+    "vite": "",
+    "rollup": "4.29.1",
+    "env": "node",
+    "os": "darwin",
+    "node": "20.12.2"
+  }
+}
